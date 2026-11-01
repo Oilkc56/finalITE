@@ -1,18 +1,14 @@
 public class Player {
     private final String name;
-    private final boolean bot;
     private int elo;
 
-    public Player(String name, int elo, boolean bot) {
+    public Player(String name, int elo) {
         this.name = name;
         this.elo = elo;
-        this.bot = bot;
     }
 
     public String getName() { return name; }
     public int getElo() { return elo; }
-    public boolean isBot() { return bot; }
-
     // elo ไม่ติดลบ
     public void changeElo(int amount) {
         elo = Math.max(0, elo + amount);

@@ -17,7 +17,7 @@ public class MatchmakingQueue {
     }
 
     private void addBot(int elo) {
-        waiting.add(new Player("Bot" + botCount, elo, true));
+        waiting.add(new Player("Bot" + botCount, elo));
         botCount++;
     }
 

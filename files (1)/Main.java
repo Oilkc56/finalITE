@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Player me = new Player("Kaolad", 100, false);
+        Player me = new Player("Kaolad", 100);
         Play play = new Play();
         Profile profile = new Profile(me);
         History history = new History(play);
