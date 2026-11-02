@@ -11,6 +11,7 @@ public class Player {
     public int getElo() { return elo; }
 
     // elo ไม่ติดลบ
+    // O1 (โอหนึ่ง)
     public void changeElo(int amount) {
         elo = Math.max(0, elo + amount);
     }

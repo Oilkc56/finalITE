@@ -40,6 +40,7 @@ public class Main {
     }
 
     // หน้าหลังกด "เตรียมเข้าหาห้อง": ชื่อเราอยู่ในคิวแล้ว
+    // มี while เลยเป็น On(โอเอ็น)
     private static void findRoom(Scanner scanner, Player me, MatchmakingQueue queue,
                                  Play play, History history) {
         queue.join(me);

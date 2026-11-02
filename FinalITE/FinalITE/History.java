@@ -9,6 +9,7 @@ public class History {
         this.play = play;
     }
 
+    //O1
     public void addHistory() {
         history.addFirst("Match : " + matchCount + " | Opponent : " + play.getOpponent()
                 + ", Result : " + play.getResult());
@@ -19,6 +20,7 @@ public class History {
         }
     }
 
+    //On (โอเอ็น)
     public void showHistory() {
         System.out.println("--- Play History (last 5) ---");
         if (history.isEmpty()) {

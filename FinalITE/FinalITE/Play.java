@@ -8,6 +8,7 @@ public class Play {
     public String getOpponent() { return opponent; }
     public String getResult() { return result; }
 
+    //o1 (โอหนึ่ง)
     public void playMatch(Player me, Player enemy) {
         opponent = enemy.getName();
 
